@@ -8,7 +8,7 @@ header,
 #intro
  {
 height: 100%;
-background-color: #;
+
 }
 
 #intro {
@@ -17,7 +17,7 @@ background-color: #;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
+filter: brightness(85%);
 }
 .mask {
   padding-top: 300px;
@@ -95,13 +95,13 @@ opacity:0.6;
 }
 .iframe {
   text-align: center;
+  border: 3px dotted black;
 }
 .card-img-top {
   height: 300px;
 }
 #services {
   background-color: #BCD3F2;
-
 }
 #contact {
   background-color: #ABEBD2;
@@ -109,5 +109,5 @@ opacity:0.6;
 }
 #profile {
   background-color: #E2DCDE;
-  transition-delay: 3s;
+
 }
