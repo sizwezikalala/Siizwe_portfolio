@@ -129,6 +129,17 @@ opacity:0.6;
   border: 2px solid blue;
 
 }
+@media only screen and (max-width: 900px) {
+  /*for mobile phones: */
+ .container-fluid {
+  display: inline-block;
+  width: 100%;
+}
+
+}
+
+
+
 #services {
   background-color: silver;
 }
